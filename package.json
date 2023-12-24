@@ -1,5 +1,5 @@
 {
-  "homepage": "https://manasroutcse.github.io/next-crud-one",
+  
   "name": "next-crud-one",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "homepage": "https://manasroutcse.github.io/next-crud-one",
   "dependencies": {
     "gh-pages": "^6.1.1",
     "next": "14.0.4",
