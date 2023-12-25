@@ -15,6 +15,8 @@ module.exports = {
     pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js'],
     reactStrictMode: true,
     distDir: 'build',
+    trailingSlash: true,
+     output: 'export',
 }
 const nextConfig = {
     output: 'export',
