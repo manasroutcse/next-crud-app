@@ -1,18 +1,16 @@
 {
   "name": "next-crud-one",
-  "homepage": "https://manasroutcse.github.io/next-crud",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "gh-pages": "^6.1.1",
+   
     "mailgun-js": "^0.22.0",
     "next": "14.0.4",
     "primeflex": "^3.3.1",
