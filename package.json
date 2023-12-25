@@ -1,6 +1,6 @@
 {
   "name": "next-crud-one",
-  "homepage": "https://frontendproj.github.io/next-crud-app",
+  "homepage": "https://manasroutcse.github.io/next-crud-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prod": "next export"
   },
   "dependencies": {
     "gh-pages": "^6.1.1",

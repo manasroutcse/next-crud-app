@@ -13,8 +13,14 @@
 // module.exports = nextConfig
 module.exports = {
     pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js'],
-    reactStrictMode: true
+    reactStrictMode: true,
+    distDir: 'build',
 }
+const nextConfig = {
+    output: 'export',
+  }
+  
+  module.exports = nextConfig
 // {
 //     "compilerOptions": {
 //       "baseUrl": "./pages"
